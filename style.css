@@ -73,16 +73,14 @@ body{
 .descrip1{
     color:rgb(85, 85, 85);
     margin-bottom: 30px;
-    max-width: 600px;
+    max-width:1024px;
     margin-left: auto;
     margin-right: auto;
 }
 #cards{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
-    
+    gap: 30px;
 }
 #blue-card{
     background-color: #fff7e6;
@@ -226,21 +224,146 @@ body {
 }
 
 .news-text {
+
     font-size: 14px;
     color: #333;
     margin:20px;
+    text-align: left;
 }
 
 .read-more{
-    padding: 10px 15px;
-    background: #008000;
+    height: 48px;
+    width: 139px;
+    padding: 13px 26px 13px 26px;
+    background:rgb(0, 106, 80);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     color: #fff;
     border: none;
-    margin:10px 20px;
-    border-radius:10px;
+    margin:30px 0px;
+    border-radius:8px;
     margin-bottom: 20px;
 }
 
 .read-more:hover{
     background: blue;
+}
+
+/* 4th part */
+
+
+#donation-section {
+    width: 1024px ;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.donation-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.donation-intro {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+.donation-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.donation-btn {
+    width: 205px;
+    height: 70px;
+    padding: 10px 20px;
+    font-size: 26px;
+    font-weight: bolder;
+    background: white;
+    border-radius: 7px;
+}
+.donation-btn.selected {
+    background: #d4edda;
+    border-color: #28a745;
+    font-weight: bold;
+}
+#custom-amount {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+#donate-now {
+    background: green;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+#donate-now:hover {
+    background: red;
+}
+
+
+/* 5th part */
+
+#newsletter-section {
+    background: #cde8d7;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    width: 1024px;
+    height: auto;
+    margin: 50px auto;
+}
+.newsletter-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.newsletter-subtitle {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+}
+.newsletter-input {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+}
+.subscribe-btn {
+    background: blue;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.subscribe-btn:hover {
+    background: green;
+}
+.newsletter-note {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
 }
