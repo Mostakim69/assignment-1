@@ -320,6 +320,11 @@ body {
     background: red;
 }
 
+.donation-btn:hover{
+
+    background: aqua;
+}
+
 
 /* 5th part */
 
